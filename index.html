@@ -1002,7 +1002,7 @@ function renderResults() {
       <p>Ditt resultat ligger under gränsvärdet i KEDS och visar ingen indikation på utmattning just nu. Det är positivt!</p>
       <p>Fundera gärna över vad som hjälper dig att må bra och hantera belastning i vardagen. Vad fungerar bra idag? Vad ger dig återhämtning, energi och kraft – och vad vill du fortsätta värna om?</p>
       <p>Stress är en naturlig del av livet och vår belastning kan förändras över tid. Att förstå vad som påverkar dig och ha fungerande strategier för stress och återhämtning ger goda förutsättningar även när livet blir mer krävande.</p>
-      <p>I Head of Happiness finns kunskap och verktyg som hjälper dig att förstå vad som påverkar ditt mående, stärka det som fungerar och hantera perioder med högre belastning. 💛</p>
+      <p>I Head of Happiness finns kunskap och verktyg som hjälper dig att förstå vad som påverkar ditt mående, stärka det som fungerar och hantera perioder med högre belastning.</p>
     `;
   } else if (kedsScore <= 23) {
     kedsFeedback = `
@@ -1015,7 +1015,7 @@ function renderResults() {
       </ul>
       <p>Återhämtning kan hjälpa till att sänka belastningen och ge dig bättre förutsättningar att må bra men det är också viktigt att försöka förstå och påverka det som orsakar stressen.</p>
       <p>Om besvären påverkar din vardag, har pågått en längre tid eller om du känner oro för ditt mående rekommenderar vi att du söker stöd, exempelvis via vårdcentral eller företagshälsovård.</p>
-      <p>I Head of Happiness finns kunskap och verktyg som hjälper dig att förstå vad som påverkar ditt mående och vad du själv kan göra. Börja gärna med området Stress &amp; återhämtning. 💛</p>
+      <p>I Head of Happiness finns kunskap och verktyg som hjälper dig att förstå vad som påverkar ditt mående och vad du själv kan göra. Börja gärna med området Stress &amp; återhämtning.</p>
     `;
   } else {
     kedsFeedback = `
@@ -1027,7 +1027,7 @@ function renderResults() {
         <li>Hur kan du få till mer återhämtning i din vardag?</li>
       </ul>
       <p>Återhämtning är viktig och kan hjälpa dig att sänka belastningen och må bättre, men det är också viktigt att försöka förstå och påverka det som orsakar stressen.</p>
-      <p>I Head of Happiness finns kunskap och verktyg som hjälper dig att förstå stress, stärka din återhämtning och se vad du själv kan påverka. Börja gärna med området Stress &amp; återhämtning. 💛</p>
+      <p>I Head of Happiness finns kunskap och verktyg som hjälper dig att förstå stress, stärka din återhämtning och se vad du själv kan påverka. Börja gärna med området Stress &amp; återhämtning.</p>
     `;
   }
 
@@ -1038,14 +1038,14 @@ function renderResults() {
       <p>Ditt resultat visar att du har upplevt ett gott välbefinnande den senaste tiden. Det är positivt!</p>
       <p>Stanna gärna upp och fundera över vad som bidrar till att du mår bra. Vad ger dig energi, glädje och kraft? Vilka relationer, vanor eller delar av din vardag betyder mycket för ditt välbefinnande?</p>
       <p>Att bli medveten om det som stärker dig gör det lättare att värna om det och fortsätta skapa utrymme för det – även under perioder när livet ställer högre krav.</p>
-      <p>Det som redan fungerar är en viktig resurs att bygga vidare på. 💛</p>
+      <p>Det som redan fungerar är en viktig resurs att bygga vidare på.</p>
     `;
   } else {
     whoFeedback = `
       <p>Ditt resultat visar på ett nedsatt välbefinnande just nu. Det kan hänga samman med exempelvis stress, trötthet, nedstämdhet eller andra påfrestningar i livet.</p>
       <p>Stanna gärna upp och fundera över vad som påverkar hur du mår just nu. Vad tar energi och kraft? Vad brukar få dig att må bra? Finns det något du behöver mer – eller mindre – av i din vardag?</p>
       <p>Ibland kan små förändringar göra skillnad, men det är också viktigt att ta sitt mående på allvar. Om ditt mående påverkar din vardag, har pågått en längre tid eller om du känner oro rekommenderar vi att du söker stöd, exempelvis via vårdcentral eller företagshälsovård.</p>
-      <p>I Head of Happiness finns kunskap och verktyg som hjälper dig att förstå vad som påverkar ditt mående och vad du själv kan göra för att stärka ditt välbefinnande. 💛</p>
+      <p>I Head of Happiness finns kunskap och verktyg som hjälper dig att förstå vad som påverkar ditt mående och vad du själv kan göra för att stärka ditt välbefinnande.</p>
     `;
   }
 
@@ -1077,6 +1077,10 @@ function renderResults() {
         Återkoppling – WHO-5 (${whoScore} poäng)
       </h3>
       ${whoFeedback}
+    </div>
+
+    <div class="result-section">
+      <p>Tack för att du tog dig tid att stanna upp och reflektera över hur du mår. 💛</p>
     </div>
 
     <div class="result-section">
